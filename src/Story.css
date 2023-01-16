@@ -1,0 +1,42 @@
+.story{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(104, 63, 200);
+    margin-right: 10px;
+    margin-top: 30px;
+    /*top: -70px;*/
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px 7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .story {
+      width: 100%;
+    }
+  }
+
+
+.story:hover{
+    transform: scale(1.07);
+    background-color: blueviolet;
+}
+
+.story > h4{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: rgb(255, 249, 249);
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.story__avarta{
+    margin: 10px;
+    border: 4px solid blue;
+}
